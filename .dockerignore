@@ -1,0 +1,20 @@
+# Git
+.git
+.gitignore
+
+# Data directory (will be mounted as volume)
+data/
+
+# Documentation
+*.md
+README.md
+
+# Testing
+*_test.go
+coverage.*
+
+# Misc
+.env
+.env.local
+tmp/
+temp/
